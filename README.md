@@ -36,3 +36,9 @@ dots config --local status.showUntrackedFiles no
 dots checkout
 ```
 
+## Future Work
+- Move nvim to separate submodule
+- Add suckless config to git submodule
+    - May be migrating away from suckless in the future, so possibly unnecessary work
+- Flesh out scripts (script the world!)
+- Ambitious install/Ansible script that includes minimal set of utilities for server deployment
