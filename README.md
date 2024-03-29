@@ -23,7 +23,9 @@
     - No theme 😎 (I think this causes some problems so TBD)
 
 ### Scripts
-- 🙂
+- (Mostly) POSIX-compliant scripts for desktop QoL
+- Utilizes mostly `dmenu`, `notify-send`, and `~/.local/share`
+- Convenience scripts for status bar, `pacman` commonly-used commands, device binding, etc.
 
 ## Installation
 ```sh
