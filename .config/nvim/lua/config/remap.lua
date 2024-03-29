@@ -35,6 +35,10 @@ vim.keymap.set('n', '<Leader>c', ':cl<CR>:cc')
 vim.keymap.set('n', '<C-n>', ':cn<CR>')
 vim.keymap.set('n', '<C-b>', ':cp<CR>')
 
+-- Reopen closed window
+vim.keymap.set('n', '<C-v>#', ':vs#<CR>')
+vim.keymap.set('n', '<C-x>#', ':sp#<CR>')
+
 -- Jump to current file in Netrw
 vim.keymap.set('n', [[<Leader>\]], ':w!<CR>:e %:h<CR>')
 vim.keymap.set('n', '<Leader>pv', vim.cmd.Ex)
