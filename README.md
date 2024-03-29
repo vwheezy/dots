@@ -17,7 +17,10 @@
 - Aliases, bookmarks, and shell-specific configuration abstracted out.
 
 ### Neovim
-- 😁
+- Full lua config separated into base and plugin configuration
+- Uses [lazy.nvim](https://github.com/folke/lazy.nvim) plugin manager
+    - colors, telescope, treesitter, undotree, fugitive (needs integration into workflow), and lsp
+    - No theme 😎 (I think this causes some problems so TBD)
 
 ### Scripts
 - 🙂
