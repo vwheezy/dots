@@ -46,3 +46,4 @@ urgency.uda.priority.L.coefficient=0
 urgency.uda.priority..coefficient=1.8
 search.case.sensitive=no
 rc.dateformat=a Y-M-D H:N:S
+news.version=2.6.0
