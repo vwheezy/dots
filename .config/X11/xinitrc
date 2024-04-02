@@ -10,6 +10,9 @@ fi
 [ -f "$XDG_CONFIG_HOME/X11/Xresources" ] && xrdb -merge "$XDG_CONFIG_HOME/X11/Xresources" # Merge resources
 [ -f "$XDG_DATA_HOME/bg" ] && setbg "$XDG_DATA_HOME/bg" # Set wallpaper
 
+export SUDO_ASKPASS=ssh-askpass
+export SSH_ASKPASS=ssh-askpass
+
 # Kbd set up
 setxkbmap -option caps:swapescape
 # setxkbmap -option ctrl:swapcaps_hyper
