@@ -1,5 +1,7 @@
 #!/bin/sh
 
+[ -f "/etc/profile" ] && . "/etc/profile"
+
 # Default programs
 export EDITOR="nvim"
 export VISUAL="nvim"
