@@ -31,4 +31,4 @@ dunst &                                     # Notifications
 networkd-notify &                           # Network notifications
 dex -a &                                    # XDG Autostart
 
-exec $HOME/.local/bin/startdwm              # exec dwm
+exec startdwm              # exec dwm
