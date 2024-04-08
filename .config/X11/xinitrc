@@ -29,6 +29,6 @@ unclutter &                                 # Unclutter mouse
 sxhkd &                                     # Universal bindings
 dunst &                                     # Notifications
 networkd-notify &                           # Network notifications
-lxqt-policykit-agent &                      # Policy Agent
+dex -a &                                    # XDG Autostart
 
 exec $HOME/.local/bin/startdwm              # exec dwm
