@@ -1,0 +1,11 @@
+#!/bin/sh
+
+locked=$(xset q | awk '/DPMS is/ {print $3}')
+
+if [ "$locked" = "Disabled" ]; then
+    xset s on && xset +dpms || echo "Error turning on screensaver"
+    dunstify -h string:x-dunst-stack-tag:screensaver "Screensaver" "Toggled ON 🖥️🔒"
+elif [ "$locked" = "Enabled" ]; then
+    xset s off && xset -dpms || echo "Error turning off screensaver"
+    dunstify -h string:x-dunst-stack-tag:screensaver "Screensaver"  "Toggled OFF 🖥️🔓 "
+fi
