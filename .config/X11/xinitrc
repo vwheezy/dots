@@ -29,6 +29,9 @@ unclutter &                                 # Unclutter mouse
 sxhkd &                                     # Universal bindings
 dunst &                                     # Notifications
 networkd-notify &                           # Network notifications
+redshift-gtk &                              # Screen temp based on time/loc
+playerctld daemon &                         # MPRIS/DBUS control of media players
+mpris-proxy &                               # Extend MPRIS for Bluetooth Headset control
 dex -a &                                    # XDG Autostart
 
 exec startdwm              # exec dwm
