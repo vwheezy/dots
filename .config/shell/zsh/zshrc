@@ -100,3 +100,7 @@ autoload -Uz bd
 . $ZDOTDIR/shrink-path.zsh
 . $ZDOTDIR/git-prompt.zsh
 . $ZDOTDIR/bd.zsh
+
+# Add custom completions for scripts
+fpath=("$XDG_DATA_HOME/zsh/site-functions" "$fpath[@]")
+compdef who-which=whereis
