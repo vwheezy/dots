@@ -2,11 +2,11 @@
 vim.opt.showmatch = true
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.clipboard:append { "unnamedplus" }
+vim.opt.clipboard:append("unnamedplus")
 vim.opt.wrap = false
 vim.opt.autoread = true
 vim.opt.hidden = true
-vim.opt.path:append { "**" }
+vim.opt.path:append("**")
 vim.opt.scrolloff   = 8
 vim.opt.colorcolumn = "80"
 vim.opt.signcolumn  = "yes"
