@@ -89,3 +89,16 @@ vim.g.netrw_list_hide = { 'netrw_gitignore#Hide()', [[(^|\s\s\s)\zs.S+]] }
 vim.g.maximizer_set_default_mapping = 0
 vim.g.maximizer_set_default_mapping_with_bang = 0
 vim.g.maximizer_default_mapping_key = '<Leader>z'
+
+-- make zsh files recognized as sh for bash-ls & treesitter
+vim.filetype.add {
+    extension = {
+        zsh = "sh",
+        sh = "sh", -- force sh-files with zsh-shebang to still get sh as filetype
+    },
+    filename = {
+        ["zshrc"] = "sh",
+        [".zshrc"] = "sh",
+        [".zshenv"] = "sh",
+    },
+}
