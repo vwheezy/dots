@@ -1,6 +1,6 @@
 # settings
 set adjust-open best-fit
-set selection-clipboard primary
+set selection-clipboard clipboard
 set show-scrollbars true
 # set sandbox strict
 
