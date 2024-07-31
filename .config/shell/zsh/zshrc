@@ -104,3 +104,6 @@ autoload -Uz bd
 # Add custom completions for scripts
 fpath=("$XDG_DATA_HOME/zsh/site-functions" "$fpath[@]")
 compdef who-which=whereis
+
+# nvm: TODO, find better place for this
+[ -f "/usr/share/nvm/init-nvm.sh" ] && source /usr/share/nvm/init-nvm.sh
